@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+.text-ellipsis {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
